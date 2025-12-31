@@ -44,9 +44,11 @@ logs/
 
 # Output files
 output/
-*.txt
 *.csv
 *.json
+
+# Requirements file (exception to *.txt rule)
+!requirements.txt
 
 # Jupyter Notebook
 .ipynb_checkpoints
