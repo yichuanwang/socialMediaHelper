@@ -26,11 +26,11 @@
 ```bash
 # 1. 克隆项目
 git clone <repository-url>
-cd pythonProject
+cd socialMediaHelper
 
 # 2. 创建虚拟环境
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 
 # 3. 安装依赖
 pip install -r requirements.txt
